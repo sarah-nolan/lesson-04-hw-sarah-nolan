@@ -22,9 +22,8 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#learnmorebutton').click(function(){
   	$('#learnmoretext').slideDown();
-  	$('#learnmoretext').show();
+    $('#learnmoretext').show();
     $('#learnmorebutton').hide();
-    $('#lessbutton').show();
   	event.preventDefault();
   });
 });
